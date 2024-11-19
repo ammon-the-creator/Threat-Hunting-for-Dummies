@@ -1,0 +1,101 @@
+# What is Threat Hunting?
+
+## Overview
+Threat hunting is a proactive cybersecurity practice where security professionals actively search through networks, endpoints, and datasets to detect and isolate advanced threats that evade existing security solutions. Unlike traditional security measures that rely on alerts from security tools, threat hunting assumes that adversaries may have already breached your defenses and actively looks for signs of their presence.
+
+## Key Concepts
+
+### 1. Proactive vs Reactive
+- **Reactive Security**: Waiting for alerts or incidents to respond
+- **Proactive Hunting**: Actively searching for threats before they trigger alerts or cause damage
+
+### 2. Core Components
+- **Hypothesis Development**: Creating theories about potential threats based on knowledge of adversary tactics
+- **Data Collection**: Gathering relevant data from various sources
+- **Investigation**: Analyzing data to prove or disprove hypotheses
+- **Discovery**: Finding new patterns or indicators of compromise (IOCs)
+
+## Why is Threat Hunting Important?
+
+### 1. Advanced Persistent Threats (APTs)
+- Sophisticated attackers can bypass traditional security
+- They often remain undetected for extended periods
+- Standard tools might miss their subtle activities
+
+### 2. Reducing Dwell Time
+- Average time attackers spend in networks: 200+ days
+- Threat hunting helps reduce this significantly
+- Earlier detection = Less potential damage
+
+### 3. Improving Security Posture
+- Identifies security gaps
+- Validates existing security controls
+- Provides insights for security improvements
+
+## Basic Requirements for Threat Hunting
+
+### 1. Knowledge Requirements
+- Understanding of attack techniques (MITRE ATT&CK)
+- Network architecture familiarity
+- Operating system internals
+- Log analysis skills
+
+### 2. Technical Requirements
+- Log aggregation system
+- SIEM or data analysis platform
+- Endpoint visibility tools
+- Network monitoring capabilities
+
+### 3. Process Requirements
+- Documented hunting procedures
+- Investigation workflows
+- Incident response integration
+- Findings documentation method
+
+## Types of Threat Hunting
+
+### 1. Intelligence-Driven
+- Based on threat intelligence reports
+- Focuses on known adversary behaviors
+- Uses specific IOCs or TTPs
+
+### 2. Hypothesis-Driven
+- Based on "what-if" scenarios
+- Derived from security expertise
+- Tests theories about possible compromises
+
+### 3. Data-Driven
+- Analytics-based approach
+- Looks for anomalies
+- Uses statistical analysis and machine learning
+
+## Getting Started
+
+### 1. Basic Steps
+1. Start with a hypothesis
+2. Gather relevant data
+3. Use investigation tools
+4. Document findings
+5. Share knowledge
+
+### 2. Common First Hunts
+- Suspicious PowerShell usage
+- Unusual network connections
+- Anomalous user behavior
+- Unexpected scheduled tasks
+- Suspicious process relationships
+
+## Resources to Learn More
+- [To be added: Links to training section]
+- [To be added: Links to tools section]
+- [To be added: Links to methodology deep dives]
+
+## Next Steps
+After understanding what threat hunting is, proceed to:
+1. Review the prerequisites section
+2. Set up your hunting environment
+3. Learn about specific methodologies
+4. Practice with provided use cases
+
+---
+*Note: This is a living document. Feel free to contribute improvements via pull requests!*
